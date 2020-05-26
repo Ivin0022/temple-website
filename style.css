@@ -1,0 +1,11 @@
+body {
+    background-color: brown;
+}
+
+.navbar-brand {
+    width: 18rem;
+}
+
+.bg-transparent {
+    background: transparent;
+}

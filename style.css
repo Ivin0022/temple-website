@@ -2,10 +2,27 @@ body {
     background-color: brown;
 }
 
+/* navbar */
+.bg-transparent {
+    background: transparent;
+}
+
 .navbar-brand {
     width: 18rem;
 }
 
-.bg-transparent {
-    background: transparent;
+.navbar-nav {
+    white-space: nowrap;
+    overflow: scroll;
+}
+
+.navbar-nav::-webkit-scrollbar {
+    display: none;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
 }

@@ -2,6 +2,8 @@ body {
     background-color: brown;
 }
 
+
+
 /* navbar */
 .bg-transparent {
     background: transparent;
@@ -11,18 +13,10 @@ body {
     width: 18rem;
 }
 
-.navbar-nav {
-    white-space: nowrap;
-    overflow: scroll;
-}
-
-.navbar-nav::-webkit-scrollbar {
-    display: none;
-}
-
 
 .navbar-dark .navbar-nav .nav-link {
     color: white;
+    white-space: nowrap;
     text-align: center;
     text-transform: uppercase;
 }

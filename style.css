@@ -93,3 +93,31 @@ body {
     font-size: 8px;
     top: 0.7rem;
 }
+
+/* footer */
+
+
+
+.footer>.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    color: brown;
+}
+
+.footer .footer-list {
+    border-right: solid 2px brown;
+}
+
+.footer .footer-list ul>li {
+    text-transform: uppercase;
+    list-style: none;
+    font-size: 22px;
+    margin-bottom: 0.9rem;
+}
+
+
+.footer .icon-set i {
+    font-size: 20px;
+    color: white;
+    padding: 2px;
+}

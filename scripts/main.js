@@ -21,3 +21,25 @@ var app = new Vue({
         ]
     }
 })
+
+var app = new Vue({
+    el: '#gallery',
+    data: {
+        items: [{
+                img: './images/gallery-1.png',
+            },
+            {
+                img: './images/gallery-2.png',
+            },
+            {
+                img: './images/gallery-3.png',
+            },
+            {
+                img: './images/gallery-4.png',
+            },
+            {
+                img: './images/gallery-5.png',
+            },
+        ]
+    }
+})

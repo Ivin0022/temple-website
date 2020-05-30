@@ -43,11 +43,22 @@ body {
 }
 
 /* about text */
+.about-card {
+    background-image: url("./images/about-background-texture.png");
+}
 
 #about-header {
     text-transform: uppercase;
     color: brown;
+    font-family: "'Montaga', serif";
+    font-weight: bolder;
 
+}
+
+.about-content {
+    font-family: "'Montaga', serif";
+    font-size: 1.2rem;
+    line-height: 1.7;
 }
 
 #about .card {

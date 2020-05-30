@@ -2,6 +2,10 @@
     --topbar-background-color: #421400ff;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-image: url("./images/background-texture.png");
 }
@@ -115,23 +119,33 @@ i.fa-circle:last-child {
 
 /* footer */
 
-
+.footer {
+    font-family: "'Montaga', serif";
+}
 
 .footer>.container-fluid {
+    background-color: var(--topbar-background-color);
+    background-image: url("./images/topbar-background-texture.png");
     padding-right: 15px;
     padding-left: 15px;
-    color: brown;
+    color: burlywood;
 }
 
 .footer .footer-list {
-    border-right: solid 2px brown;
+    /* border-right: solid 2px #b73d00ff; */
+    border-right: solid 2px burlywood;
 }
 
 .footer .footer-list ul>li {
     text-transform: uppercase;
     list-style: none;
-    font-size: 22px;
-    margin-bottom: 0.9rem;
+    font-size: 20px;
+    margin-bottom: 0.6rem;
+}
+
+.footer .footer-list ul>li a {
+    text-decoration: none;
+    color: burlywood;
 }
 
 

@@ -4,7 +4,6 @@
 
 body {
     background-color: wheat;
-    font-family: "'Montaga', serif";
 }
 
 #background-top {
@@ -14,6 +13,7 @@ body {
     width: 100%;
     height: 350px;
     background-color: var(--topbar-background-color);
+    background-image: url("./images/topbar-background-texture.png");
 }
 
 

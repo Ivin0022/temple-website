@@ -18,6 +18,23 @@ body {
 
 
 /* navbar */
+
+.outer {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    text-transform: uppercase;
+    font-family: "'Montaga', serif";
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #ff6e3bff;
+    line-height: 1.4;
+}
+
 .bg-transparent {
     background: transparent;
 }

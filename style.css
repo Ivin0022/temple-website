@@ -144,7 +144,7 @@ i.fa-circle:last-child {
 }
 
 .footer .footer-list ul>li a {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: burlywood;
 }
 

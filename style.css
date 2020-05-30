@@ -4,6 +4,7 @@
 
 body {
     background-color: wheat;
+    font-family: "'Montaga', serif";
 }
 
 #background-top {
@@ -33,7 +34,13 @@ body {
     text-transform: uppercase;
 }
 
-
+/* navbar dropdown */
+.dropdown-menu .dropdown-item {
+    text-transform: uppercase;
+    color: var(--topbar-background-color);
+    font-weight: 500;
+    font-size: 1rem;
+}
 
 /* about text */
 

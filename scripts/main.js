@@ -2,21 +2,22 @@ var app = new Vue({
     el: '#news',
     data: {
         items: [{
-                img: 'https://i.picsum.photos/id/356/400/400.jpg',
-                text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis.',
+                img: './images/news-1.png',
+                text: 'Pratishta Dinam is organized on the day of Pooyam star in the month of Medam',
             },
             {
-                img: 'https://i.picsum.photos/id/455/400/400.jpg',
-                text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis.',
+                img: './images/news-2.png',
+                text: 'Monthly pooja is conducted on the second Sunday of every Malayalam month',
             },
             {
-                img: 'https://i.picsum.photos/id/355/400/400.jpg',
-                text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis.',
+                img: './images/news-3.png',
+                text: 'Special pooja is conducted on festival occasions of  Vishu, Onam and Sivarathri',
             },
             {
-                img: 'https://i.picsum.photos/id/385/400/400.jpg',
-                text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis.',
+                img: './images/news-4.png',
+                text: 'Pooja on Navarathri-the auspicious time to start educational & artistic pursuits',
             },
+
         ]
     }
 })

@@ -89,8 +89,9 @@ i.fa-circle:last-child {
 
 /* news */
 
-#news img {
-    filter: blur(1px) sepia(60%);
+#news p {
+    font-family: "'Montaga', serif";
+    font-size: 1.1rem;
 }
 
 

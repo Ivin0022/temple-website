@@ -26,20 +26,21 @@ var app = new Vue({
     el: '#gallery',
     data: {
         items: [{
-                img: './images/gallery-1.png',
+                img: './images/gallery-1.jpg',
             },
             {
-                img: './images/gallery-2.png',
+                img: './images/gallery-2.jpg',
             },
             {
-                img: './images/gallery-3.png',
+                img: './images/gallery-3.jpg',
             },
             {
-                img: './images/gallery-4.png',
+                img: './images/gallery-4.jpg',
             },
             {
-                img: './images/gallery-5.png',
+                img: './images/gallery-4.jpg',
             },
+
         ]
     }
 })

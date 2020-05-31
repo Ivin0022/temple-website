@@ -1,0 +1,13 @@
+/* navbar */
+.logo-text.mal {
+    line-height: 2.4rem;
+    letter-spacing: 0.1rem;
+}
+
+.nav-item {
+    max-height: 2.5rem;
+}
+
+.navbar-nav .nav-link span.mal {
+    font-size: 0.9rem;
+}

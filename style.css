@@ -8,6 +8,7 @@ html {
 
 body {
     background-image: url("./images/background-texture.png");
+
 }
 
 #background-top {
@@ -23,6 +24,7 @@ body {
 /* translation */
 .mal {
     display: none;
+    font-family: "'Manjari', sans-serif";
 }
 
 /* navbar */

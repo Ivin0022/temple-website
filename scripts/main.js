@@ -21,4 +21,14 @@ window.addEventListener("load", function (event) {
 
         });
     }
+
+    $('.btn-trans').click(function () {
+        if (lang === 'en') {
+            url.searchParams.set('lang', 'ml')
+        } else {
+            url.searchParams.set('lang', 'en')
+        }
+
+        window.location.assign(url.toString())
+    })
 });

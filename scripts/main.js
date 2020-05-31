@@ -44,3 +44,8 @@ var app = new Vue({
         ]
     }
 })
+
+
+$(function () {
+    $('#top-nav').load('nav.html')
+})

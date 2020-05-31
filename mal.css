@@ -11,3 +11,8 @@
 .navbar-nav .nav-link span.mal {
     font-size: 0.9rem;
 }
+
+.header-title span.mal {
+    padding-top: 0.4rem;
+    font-size: 1.4rem;
+}

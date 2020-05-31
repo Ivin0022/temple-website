@@ -3,6 +3,10 @@ let lang = url.searchParams.get('lang') || 'en'
 
 
 window.addEventListener("load", function (event) {
+    $('a').each(function (index, value) {
+        let href = $(this).attr('href');
+        $(this).attr('href', href + "?lang=" + lang)
+    })
 
     if (lang === 'ml') {
         $('.eng').each(function (index, value) {
@@ -10,7 +14,6 @@ window.addEventListener("load", function (event) {
         });
         $('.mal').each(function (index, value) {
             $(this).css('display', 'inherit')
-
         });
     } else {
         $('.mal').each(function (index, value) {

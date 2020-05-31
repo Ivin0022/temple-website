@@ -3,9 +3,12 @@ let lang = url.searchParams.get('lang') || 'en'
 
 
 window.addEventListener("load", function (event) {
+
     $('a').each(function (index, value) {
         let href = $(this).attr('href');
-        $(this).attr('href', href + "?lang=" + lang)
+        if (!href.includes('#')) {
+            $(this).attr('href', href + "?lang=" + lang)
+        }
     })
 
     if (lang === 'ml') {

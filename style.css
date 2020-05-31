@@ -7,8 +7,13 @@ html {
 }
 
 body {
-    background-image: url("./images/background-texture.png");
+    background-image: url("./images/background-texture.jpg");
 
+}
+
+/* reset bootstrap */
+.card {
+    border-width: 0px;
 }
 
 #background-top {
@@ -82,7 +87,7 @@ body {
 
 /* about text */
 .about-card {
-    background-image: url("./images/about-background-texture.png");
+    background-image: url("./images/about-background-texture.jpg");
 }
 
 #about-header {
@@ -133,6 +138,13 @@ i.fa-circle:last-child {
 }
 
 
+
+#news .tint-red {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #421300c5;
+}
 
 /* footer */
 

@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background-image: url("./images/background-texture.png");
+    background-image: url("./images/background-texture.jpg");
 
 }
 
@@ -82,7 +82,7 @@ body {
 
 /* about text */
 .about-card {
-    background-image: url("./images/about-background-texture.png");
+    background-image: url("./images/about-background-texture.jpg");
 }
 
 #about-header {

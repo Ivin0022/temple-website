@@ -154,3 +154,51 @@ i.fa-circle:last-child {
     color: white;
     padding: 2px;
 }
+
+
+/* offering */
+#offerings table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#offerings tr {
+    background-color: hsl(18, 100%, 13%);
+}
+
+#offerings tr:nth-child(2) {
+    background-color: hsl(18, 100%, 11%);
+}
+
+#offerings tr:nth-child(3) {
+    background-color: hsl(18, 100%, 9%);
+}
+
+#offerings tr:nth-child(4) {
+    background-color: hsl(18, 100%, 7%);
+}
+
+#offerings tr:nth-child(5) {
+    background-color: hsl(18, 100%, 5%);
+}
+
+#offerings tr:nth-child(6) {
+    background-color: hsl(18, 100%, 3%);
+}
+
+
+
+
+#offerings tr th {
+    border: 1px solid black;
+    font-family: "'Montaga', serif";
+    color: #ff6e3bff;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+#offerings tr td {
+    border: 1px solid black;
+    color: white;
+}

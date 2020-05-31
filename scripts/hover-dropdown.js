@@ -1,8 +1,8 @@
-const $dropdown = $(".dropdown");
-const $dropdownToggle = $(".dropdown-toggle");
-const $dropdownMenu = $(".dropdown-menu");
-const showClass = "show";
 $(window).on("load resize", function () {
+    const $dropdown = $(".dropdown");
+    const $dropdownToggle = $(".dropdown-toggle");
+    const $dropdownMenu = $(".dropdown-menu");
+    const showClass = "show";
     if (this.matchMedia("(min-width: 768px)").matches) {
         $dropdown.hover(
             function () {

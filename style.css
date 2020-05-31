@@ -20,6 +20,10 @@ body {
     background-image: url("./images/topbar-background-texture.png");
 }
 
+/* translation */
+.mal {
+    display: none;
+}
 
 /* navbar */
 

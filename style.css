@@ -61,23 +61,6 @@ body {
     line-height: 1.4;
 }
 
-@media only screen and (max-width: 576px) {
-    .brand-wrapper img {
-        width: 4rem;
-    }
-
-    .logo-text {
-        padding-left: 0.8rem;
-        padding-right: 0rem;
-        font-size: 1.1rem;
-    }
-
-    #demo .carousel-inner .carousel-item img {
-        height: calc(100vw * (9/16));
-    }
-}
-
-
 
 .bg-transparent {
     background: transparent;

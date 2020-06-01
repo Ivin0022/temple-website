@@ -1,0 +1,31 @@
+@media only screen and (max-width: 576px) {
+    .brand-wrapper img {
+        width: 4rem;
+    }
+
+    .logo-text {
+        padding-left: 0.8rem;
+        padding-right: 0rem;
+        font-size: 1.1rem;
+    }
+
+    #demo .carousel-inner .carousel-item img {
+        height: calc(100vw * (9/16));
+    }
+
+    #about-header {
+        text-transform: uppercase;
+        color: brown;
+        font-family: "'Montaga', serif";
+        font-weight: bolder;
+        font-size: 1.2rem;
+    }
+
+    .about-content {
+        font-family: "'Montaga', serif";
+        font-size: 0.9rem;
+        line-height: 1.2;
+    }
+
+
+}

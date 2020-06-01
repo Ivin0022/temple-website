@@ -1,46 +1,37 @@
-var app = new Vue({
-    el: '#news',
-    data: {
-        items: [{
-                img: './images/news-1.png',
-                text: 'Pratishta Dinam is organized on the day of Pooyam star in the month of Medam',
-            },
-            {
-                img: './images/news-2.png',
-                text: 'Monthly pooja is conducted on the second Sunday of every Malayalam month',
-            },
-            {
-                img: './images/news-3.png',
-                text: 'Special pooja is conducted on festival occasions of  Vishu, Onam and Sivarathri',
-            },
-            {
-                img: './images/news-4.png',
-                text: 'Pooja on Navarathri-the auspicious time to start educational & artistic pursuits',
-            },
+let url = new URL(window.location.href)
+let lang = url.searchParams.get('lang') || 'en'
 
-        ]
+
+window.addEventListener("load", function (event) {
+
+    $('a').each(function (index, value) {
+        let href = $(this).attr('href');
+        if (!href.includes('#')) {
+            $(this).attr('href', href + "?lang=" + lang)
+        }
+    })
+
+    if (lang === 'ml') {
+        $('.eng').each(function (index, value) {
+            $(this).css('display', 'none')
+        });
+        $('.mal').each(function (index, value) {
+            $(this).css('display', 'inherit')
+        });
+    } else {
+        $('.mal').each(function (index, value) {
+            $(this).css('display', 'none')
+
+        });
     }
-})
 
-var app = new Vue({
-    el: '#gallery',
-    data: {
-        items: [{
-                img: './images/gallery-1.jpg',
-            },
-            {
-                img: './images/gallery-2.jpg',
-            },
-            {
-                img: './images/gallery-3.jpg',
-            },
-            {
-                img: './images/gallery-4.jpg',
-            },
-            {
-                img: './images/gallery-4.jpg',
-            },
+    $('.btn-trans').click(function () {
+        if (lang === 'en') {
+            url.searchParams.set('lang', 'ml')
+        } else {
+            url.searchParams.set('lang', 'en')
+        }
 
-        ]
-    }
-})
+        window.location.assign(url.toString())
+    })
+});

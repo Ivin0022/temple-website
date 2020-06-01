@@ -71,7 +71,12 @@ body {
         padding-right: 0rem;
         font-size: 1.1rem;
     }
+
+    #demo .carousel-inner .carousel-item img {
+        height: calc(100vw * (9/16));
+    }
 }
+
 
 
 .bg-transparent {

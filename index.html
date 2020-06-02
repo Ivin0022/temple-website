@@ -9,8 +9,9 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montaga&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap" rel="stylesheet">
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="small.css">
     <link rel="stylesheet" href="mal.css">
 
     <title>Vellakallunkal</title>
@@ -33,7 +34,7 @@
         <section class="pt-5" id="about">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-10 offset-1">
+                    <div class="col-md-10 offset-md-1 col-12">
                         <div class="card shadow">
                             <div class="card-body text-center about-card">
                                 <h4 id="about-header">
@@ -44,8 +45,8 @@
                                         ക്ഷേത്രത്തെക്കുറിച്ച്
                                     </span>
                                 </h4>
-                                <hr style="width: 50%;">
-                                <p class="mx-5 about-content eng" v-if="english">
+                                <hr class="mt-md-3 mt-2 w-50">
+                                <p class="mx-md-5 about-content eng">
                                     Vellakkallumkal Aiswarya Gandharva Swami Temple is situated in the beautiful village
                                     of Kothala, Kottayam District in Kerala. This gives equal importance to both Lord
                                     Gandharva and Goddess Bhagavathi. Apart from the main deities, Lord Mahavishnu, Lord
@@ -53,7 +54,7 @@
                                     Thanthri of the temple is Puthumana Namboothiries. There will be pooja on every 2nd
                                     Sunday of Malayalam month.
                                 </p>
-                                <p class="mx-5 about-content mal" v-else>
+                                <p class="mx-md-5 about-content mal">
                                     കേരളത്തിലെ കോട്ടയം ജില്ലയിലെ കോത്തല എന്ന മനോഹരമായ ഗ്രാമത്തിലാണ് വെള്ളക്കല്ലുങ്കൽ
                                     ഐശ്വര്യ ഗന്ധർവ്വ സ്വാമി ക്ഷേത്രം സ്ഥിതി ചെയ്യുന്നത്.ഗന്ധർവ്വ സ്വാമിക്കും ഭഗവതിക്കും
                                     തുല്യ പ്രാധാന്യം നൽകുന്നു.പ്രധാന ദേവതകളെ കൂടാതെ മഹാവിഷ്ണു,ശിവൻ,സർപ്പങ്ങൾ,നവഗ്രഹങ്ങൾ
@@ -73,8 +74,8 @@
             <div class="container mt-5">
                 <div class="row">
                     <div class="col d-flex justify-content-center">
-                        <i class='fas fa-circle'></i>
-                        <i class='fas fa-circle'></i>
+                        <i class='fa fa-circle'></i>
+                        <i class='fa fa-circle'></i>
                         <h4 class="header-title">
                             <span class="eng">
                                 news
@@ -83,74 +84,80 @@
                                 വാർത്ത
                             </span>
                         </h4>
-                        <i class='fas fa-circle'></i>
-                        <i class='fas fa-circle'></i>
+                        <i class='fa fa-circle'></i>
+                        <i class='fa fa-circle'></i>
                     </div>
                 </div>
                 <div class="row mt-3">
-                    <div class="card-deck">
-                        <!-- news 1 -->
-                        <div class="card">
-                            <span class="tint-red"></span>
-                            <img class="card-img" src="./images/news-1.jpg" alt="Card image cap">
-                            <div class="card-img-overlay d-flex flex-wrap align-content-end">
-                                <p class="card-text text-white">
-                                    <span class="eng">
-                                        Pratishta Dinam is organized on the day of Pooyam star in the month of Medam
-                                    </span>
-                                    <span class="mal">
-                                        മേട മാസത്തിലെ പൂയം നക്ഷത്രത്തിൽ പ്രതിഷ്ഠാ ദിനം
-                                    </span>
-                                </p>
+                    <div class="col">
+
+                        <div class="card-deck">
+                            <!-- news 1 -->
+                            <div class="card">
+                                <span class="tint-red"></span>
+                                <img class="card-img" src="./images/news-1.jpg" alt="Card image cap">
+                                <div class="card-img-overlay d-flex flex-wrap align-content-end">
+                                    <p class="card-text text-white">
+                                        <span class="eng">
+                                            Pratishta Dinam is organized on the day of Pooyam star in the month of Medam
+                                        </span>
+                                        <span class="mal">
+                                            മേട മാസത്തിലെ പൂയം നക്ഷത്രത്തിൽ പ്രതിഷ്ഠാ ദിനം
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- news 2 -->
+                            <div class="card">
+                                <span class="tint-red"></span>
+                                <img class="card-img" src="./images/news-2.jpg" alt="Card image cap">
+                                <div class="card-img-overlay d-flex flex-wrap align-content-end">
+                                    <p class="card-text text-white">
+                                        <span class="eng">
+                                            Monthly pooja is conducted on the second Sunday of every Malayalam monthm
+                                        </span>
+                                        <span class="mal">
+                                            എല്ലാ മലയാള മാസത്തിലെയും രണ്ടാമത്തെ ഞായറാഴ്ചയാണ് മാസപൂജ
+                                            നടത്തുന്നത്.
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- news 3 -->
+                            <div class="card">
+                                <span class="tint-red"></span>
+                                <img class="card-img" src="./images/news-3.jpg" alt="Card image cap">
+                                <div class="card-img-overlay d-flex flex-wrap align-content-end">
+                                    <p class="card-text text-white">
+                                        <span class="eng">
+                                            Special pooja is conducted on festival occasions of Vishu, Onam and
+                                            Sivarathri
+                                        </span>
+                                        <span class="mal">
+                                            വിഷു, ഓണം, ശിവരാത്രി എന്നീ ഉത്സവ അവസരങ്ങളിൽ പ്രത്യേക പൂജ.
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- news 4 -->
+                            <div class="card">
+                                <span class="tint-red"></span>
+                                <img class="card-img" src="./images/news-4.jpg" alt="Card image cap">
+                                <div class="card-img-overlay d-flex flex-wrap align-content-end">
+                                    <p class="card-text text-white">
+                                        <span class="eng">
+                                            Pooja on Navarathri-the auspicious time to start educational & artistic
+                                            pursuits
+                                        </span>
+                                        <span class="mal">
+                                            നവരാത്രി ദിനത്തിലെ പ്രത്യേക പൂജ - വിദ്യാഭ്യാസപരവും കലാപരവുമായ പ്രവർത്തനങ്ങൾ
+                                            ആരംഭിക്കുന്നതിനുള്ള നല്ല സമയം
+                                        </span>
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <!-- news 2 -->
-                        <div class="card">
-                            <span class="tint-red"></span>
-                            <img class="card-img" src="./images/news-2.jpg" alt="Card image cap">
-                            <div class="card-img-overlay d-flex flex-wrap align-content-end">
-                                <p class="card-text text-white">
-                                    <span class="eng">
-                                        Monthly pooja is conducted on the second Sunday of every Malayalam monthm
-                                    </span>
-                                    <span class="mal">
-                                        എല്ലാ മലയാള മാസത്തിലെയും രണ്ടാമത്തെ ഞായറാഴ്ചയാണ് മാസപൂജ
-                                        നടത്തുന്നത്.
-                                    </span>
-                                </p>
-                            </div>
-                        </div>
-                        <!-- news 3 -->
-                        <div class="card">
-                            <span class="tint-red"></span>
-                            <img class="card-img" src="./images/news-3.jpg" alt="Card image cap">
-                            <div class="card-img-overlay d-flex flex-wrap align-content-end">
-                                <p class="card-text text-white">
-                                    <span class="eng">
-                                        Special pooja is conducted on festival occasions of Vishu, Onam and Sivarathri
-                                    </span>
-                                    <span class="mal">
-                                        വിഷു, ഓണം, ശിവരാത്രി എന്നീ ഉത്സവ അവസരങ്ങളിൽ പ്രത്യേക പൂജ.
-                                    </span>
-                                </p>
-                            </div>
-                        </div>
-                        <!-- news 4 -->
-                        <div class="card">
-                            <span class="tint-red"></span>
-                            <img class="card-img" src="./images/news-4.jpg" alt="Card image cap">
-                            <div class="card-img-overlay d-flex flex-wrap align-content-end">
-                                <p class="card-text text-white">
-                                    <span class="eng">
-                                        Pooja on Navarathri-the auspicious time to start educational & artistic pursuits
-                                    </span>
-                                    <span class="mal">
-                                        നവരാത്രി ദിനത്തിലെ പ്രത്യേക പൂജ - വിദ്യാഭ്യാസപരവും കലാപരവുമായ പ്രവർത്തനങ്ങൾ
-                                        ആരംഭിക്കുന്നതിനുള്ള നല്ല സമയം
-                                    </span>
-                                </p>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -160,7 +167,7 @@
         <section>
             <div class="container mt-5">
                 <div class="row">
-                    <div class="col-10 offset-1">
+                    <div class="col-md-10 offset-md-1 col-12">
                         <div class="embed-responsive embed-responsive-16by9">
                             <iframe src="https://www.youtube.com/embed/DlFe8PvFg20" frameborder="0"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -177,8 +184,8 @@
             <div class="container mt-5">
                 <div class="row">
                     <div class="col d-flex justify-content-center">
-                        <i class='fas fa-circle'></i>
-                        <i class='fas fa-circle'></i>
+                        <i class='fa fa-circle'></i>
+                        <i class='fa fa-circle'></i>
                         <h4 class="header-title">
                             <span class="eng">
                                 gallery
@@ -187,8 +194,8 @@
                                 ഗാലറി
                             </span>
                         </h4>
-                        <i class='fas fa-circle'></i>
-                        <i class='fas fa-circle'></i>
+                        <i class='fa fa-circle'></i>
+                        <i class='fa fa-circle'></i>
                     </div>
                 </div>
                 <div class="row mt-3">

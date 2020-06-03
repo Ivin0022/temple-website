@@ -182,3 +182,15 @@ i.fa-circle:last-child {
     color: white;
     padding: 2px;
 }
+
+.whatsapp {
+    border-radius: 0.3rem;
+    padding: 0.25rem 0.4rem;
+    background-color: green;
+    color: white;
+    position: fixed;
+    font-size: 2rem;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    z-index: 200000;
+}

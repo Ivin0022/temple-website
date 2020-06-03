@@ -9,7 +9,7 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montaga&display=swap" rel="stylesheet">
 
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <link rel="stylesheet" href="style.css">
 
@@ -18,13 +18,29 @@
 
 <body>
     <div id="background-top"></div>
+    <a href="https://wa.me/919447660719"><i class="fa fa-whatsapp whatsapp"></i></a>
 
 
     <!-- top nav -->
     <section id="top-nav"></section>
 
     <!-- banner -->
-    <section id="banner" class="mt-4"></section>
+    <section class="mt-4">
+        <div class="px-md-3">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <!-- The slideshow -->
+                <div class="carousel-inner shadow">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="./images/banner-2.jpeg">
+                        <div class="carousel-caption d-flex justify-content-end">
+                            <a class="btn btn-danger px-5 text-capitalize" href="">book now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Poojas & Offerings -->
     <section class="pt-5">
@@ -33,7 +49,10 @@
                 <div class="col d-flex justify-content-center">
                     <i class='fa fa-circle'></i>
                     <i class='fa fa-circle'></i>
-                    <h4 class="header-title">Poojas & Offerings</h4>
+                    <h4 class="header-title">
+                        <span class="eng">Poojas & Offerings</span>
+                        <span class="mal">പൂജകളും വഴിപാടുകളും</span>
+                    </h4>
                     <i class='fa fa-circle'></i>
                     <i class='fa fa-circle'></i>
                 </div>
@@ -43,12 +62,18 @@
                     <div class="card shadow">
                         <div class="card-body text-center about-card">
                             <p class="mx-5 about-content">
-                                Vellakkallumkal Aiswarya Gandharva Swami Temple is situated in the beautiful village of
-                                Kothala, Kottayam District in Kerala. This gives equal importance to both Lord Gandharva
-                                and Goddess Bhagavathi. Apart from the main deities, Lord Mahavishnu, Lord Shiva, Naga
-                                Goddesses and Navagrahas are worshipped as sub-dieties. The hereditary Thanthri of the
-                                temple is Puthumana Namboothiries. There will be pooja on every 2nd Sunday of Malayalam
-                                month.
+                                <span class="eng">
+                                    The details of important poojas and offerings in the temple are given below.
+                                    Devotees
+                                    can book poojas by phone also. The contact number for booking and the account number
+                                    to
+                                    remit the fees are also given in the Online Services tab on the menu bar.
+                                </span>
+                                <span class="mal">
+                                    ക്ഷേത്രത്തിലെ പ്രധാന പൂജകളുടെയും വഴിപാടുകളുടെയും വിശദാംശങ്ങൾ ചുവടെ നൽകിയിരിക്കുന്നു.
+                                    ഭക്തർക്ക് ഫോണിലൂടെയും പൂജകൾ ബുക്ക് ചെയ്യാം. ബുക്കിംഗിനായുള്ള കോൺടാക്റ്റ് നമ്പറും
+                                    ഫീസ് അടയ്ക്കാനുള്ള അക്കൗണ്ട് നമ്പറും മെനു ബാറിലെ ഓൺലൈൻ സേവന ടാബിൽ നൽകിയിരിക്കുന്നു
+                                </span>
                             </p>
                         </div>
                     </div>
@@ -56,55 +81,301 @@
             </div>
         </div>
     </section>
-    <!-- end Poojas & Offerings  -->
-
-    <!-- main offerings -->
-    <section id="offerings">
-        <div class="container-fluid mt-5">
+    <!-- second  -->
+    <section class="pt-5">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col d-flex justify-content-center">
                     <i class='fa fa-circle'></i>
                     <i class='fa fa-circle'></i>
-                    <h4 class="header-title">main Offerings</h4>
+                    <h4 class="header-title">
+                        <span class="eng">Important Poojas</span>
+                        <span class="mal">പ്രധാനപ്പെട്ട പൂജകൾ</span>
+                    </h4>
                     <i class='fa fa-circle'></i>
                     <i class='fa fa-circle'></i>
                 </div>
             </div>
             <div class="row mt-3">
                 <div class="col-10 offset-1">
-                    <div class="table-responsive-sm">
-                        <table class="table">
-                            <tr>
-                                <th>idol</th>
-                                <th>offering</th>
-                            </tr>
-                            <tr>
-                                <td>lorem</td>
-                                <td>Lorem ipsum dolor sit amet.</td>
-                            </tr>
-                            <tr>
-                                <td>Lorem, ipsum.</td>
-                                <td>Lorem ipsum dolor sit.</td>
-                            </tr>
-                            <tr>
-                                <td>Lorem, ipsum dolor.</td>
-                                <td>Lorem, ipsum dolor.</td>
-                            </tr>
-                            <tr>
-                                <td>Lorem, ipsum.</td>
-                                <td>Lorem, ipsum dolor.</td>
-                            </tr>
-                            <tr>
-                                <td>lorem</td>
-                                <td>Lorem ipsum dolor sit.</td>
-                            </tr>
-                        </table>
+                    <div class="card shadow">
+
+                        <div class="card-body text-center about-card">
+                            <h4 id="about-header">
+                                <span class="eng">
+                                    One day full pooja
+                                </span>
+                                <span class="mal">
+                                    ഒരു ദിവസത്തെ പൂജ
+                                </span>
+                            </h4>
+                            <p class="mx-5 about-content">
+                                <span class="eng">
+                                    This involves all the poojas done for all deities for the entire day
+                                </span>
+                                <span class="mal">
+                                    ദിവസം മുഴുവൻ എല്ലാ ദേവതകൾക്കുമായി ചെയ്യുന്ന എല്ലാ പൂജകളും ഇതിൽ ഉൾപ്പെടുന്നു
+                                </span>
+                            </p>
+                        </div>
+
+                        <!-- pattu -->
+                        <div class="card-body text-center about-card">
+                            <h4 id="about-header">
+                                <span class="eng">
+                                    Gandharvan pattu (mostly done on Prathishta dinam)
+                                </span>
+                                <span class="mal">
+                                    ഗന്ധർവ്വൻപാട്ട് (പ്രധാനമായും പ്രതിഷ്ഠാ ദിനത്തിലാണ് ചെയ്യുന്നത്)
+                                </span>
+                            </h4>
+                            <p class="mx-5 about-content">
+                                <span class="eng">
+                                    This is done to invoke Gandharvan (God of prosperity) for the prosperity of the
+                                    family
+                                </span>
+                                <span class="mal">
+                                    കുടുംബത്തിന്റെ അഭിവൃദ്ധിക്കായി ഗന്ധർവ്വനെ (സമൃദ്ധിയുടെ ദൈവം) ക്ഷണിക്കുന്നതിനാണ് ഇത്
+                                    ചെയ്യുന്നത്.
+                                </span>
+                            </p>
+                            <p class="mx-2 about-content">
+                                <span class="eng">
+
+                                    The ritual is performed only in the temples of Gandharva. The ceremony is organized
+                                    to invoke Gandharvan (God of prosperity) for the prosperity of the family. The
+                                    people who conduct the ceremony sing traditional songs to invoke the ‘Kalam’
+                                    (meaning drawing) on the floor using natural dyes, colour powders, leaves etc..A
+                                    boy and a girl below the age of 10 years sit in the Pandal representing Gandharva
+                                    Swami and Yakshiamma and the songs are sung. After a lengthy spell of singing the
+                                    boy and the girl may get into a trance and they may dance with the tempo of the
+                                    song. Then they go round the Pandal and start sweeping the ‘Kalam’ with a Pookula
+                                    (flower of the coconut tree). At the end of the ceremony the whole ‘Kalam’ is swept
+                                    and all the floral arrangements etc. are thrown.
+                                </span>
+                                <span class="mal">
+                                    ഗന്ധർവ്വ ക്ഷേത്രങ്ങളിൽ മാത്രമാണ് ഈ വഴിപാട് നടത്തുന്നത്.കുടുംബത്തിൻറെ അഭിവൃദ്ധിക്കായി
+                                    ഗന്ധർവ്വനെ (സമൃദ്ധിയുടെ ദൈവം)
+                                    ക്ഷണിക്കുന്നതിനാണ് വഴിപാട് നടത്തിവരുന്നത്. ചടങ്ങ് നടത്തുന്ന ആളുകൾ പ്രകൃതിദത്ത
+                                    ചായങ്ങൾ,കളർ പൊടികൾ,ഇലകൾ എന്നിവ ഉപയോഗിച്ച്
+                                    തറയിൽ കളം വരച്ച് ഗന്ധർവ്വസ്വാമിയെയും യക്ഷിയമ്മയേയും കുടിയിരുത്തി പരമ്പരാഗത ഗാനങ്ങൾ
+                                    ആലപിക്കുന്നു.10 വയസ്സിന് താഴെയുള്ള
+                                    ഒരു ആൺകുട്ടിയും പെൺകുട്ടിയും ഗന്ധർവ്വസ്വാമിയെയും യക്ഷിയമ്മയെയും പ്രതിനിധീകരിച്ച്
+                                    പന്തലിൽ ഇരിക്കുന്നു.പൂജകളും പാട്ടും
+                                    പൂർത്തിയാകുമ്പോൾ അവർ പൂക്കുല ഉപയോഗിച്ച് കളം മായ്ക്കാൻ തുടങ്ങുന്നു.കളം മായിച്ചു
+                                    കിട്ടുന്ന ഭസ്മം എല്ലാവർക്കും പ്രസാദമായി
+                                    നൽകുന്നു
+                                </span>
+                            </p>
+                        </div>
+                        <!-- end pattu -->
+
+                        <!-- pooja  -->
+                        <div class="card-body text-center about-card">
+                            <h4 id="about-header">
+                                <span class="eng">
+                                    Gandharva pooja
+                                </span>
+                                <span class="mal">
+                                    ഗന്ധർവ്വ പൂജ
+                                </span>
+                            </h4>
+                            <p class="mx-5 about-content">
+                                <span class="eng">
+                                    Gandharva Pooja is good for overall prosperity, removing Gandharva Badha, removing
+                                    Chovva Dosham, removing marriage obstacles, for good children, and to get rid of
+                                    diseases. This pooja can be conducted on any day of the week.
+                                </span>
+                                <span class="mal">
+                                    ഗന്ധർവ്വ പൂജ മൊത്തത്തിലുള്ള അഭിവൃദ്ധിക്കും, ഗന്ധർവ്വ ബാധയെ നീക്കംചെയ്യാനും, ചോവ്വാ
+                                    ദോഷം നീക്കംചെയ്യാനും, വിവാഹ തടസ്സങ്ങൾ
+                                    നീക്കാനും, കുട്ടികളുടെ നല്ലതിനും, രോഗങ്ങളിൽ നിന്ന് മുക്തി നേടുന്നതിനും
+                                    നടത്തപ്പെടുന്നു. ആഴ്ചയിലെ ഏത് ദിവസവും ഈ പൂജ
+                                    നടത്താം.
+                                </span>
+                            </p>
+                        </div>
+                        <!-- end pooja -->
+
+                        <!-- Yakshiyammakku   -->
+                        <div class="card-body text-center about-card">
+                            <h4 id="about-header">
+                                <span class="eng">
+                                    Yakshiyammakku VARANIVEDYAM
+                                </span>
+                                <span class="mal">
+                                    യക്ഷിയമ്മക്കു വറനിവേദ്യം
+                                </span>
+                            </h4>
+                            <p class="mx-5 about-content">
+                                <span class="eng">
+                                    Varanivedyam is conducted by devotees for the fulfilment of their desires
+                                </span>
+                                <span class="mal">
+                                    ഭക്തർ അവരുടെ ആഗ്രഹങ്ങളുടെ പൂർത്തീകരണത്തിനായി വറനിവേദ്യം നടത്തുന്നു
+                                </span>
+                            </p>
+                        </div>
+                        <!-- end Yakshiyammakku -->
+
+                        <!-- Archanakal -->
+                        <div class="card-body text-center about-card">
+                            <h4 id="about-header">
+                                <span class="eng">
+                                    Archanakal
+                                </span>
+                                <span class="mal">
+                                    അർച്ചനകൾ
+                                </span>
+                            </h4>
+                            <p class="mx-5 about-content">
+                                <span class="eng">
+                                    Archanas are conducted to praise or honour the Lord and thank Him /Her for the good
+                                    things the Lord has given us and for guiding us through the ups and downs of life.
+
+                                </span>
+                                <span class="mal">
+                                    ദൈവത്തിനെ പ്രീതിപ്പെടുത്തുന്നതിനും, നമ്മുടെ ജീവിതത്തിൽ സംഭവിച്ച നല്ല കാര്യങ്ങൾക്കും
+                                    അതിലൂടെ നയിക്കുന്നതിനും നന്ദി
+                                    പറയുവാനുമാണ് അർച്ചന നടത്തുന്നത്.
+                                </span>
+                            </p>
+                        </div>
+                        <!-- end Archanakal -->
+
+                        <!-- Pithrupooja -->
+                        <div class="card-body text-center about-card">
+                            <h4 id="about-header">
+                                <span class="eng">
+                                    Pithrupooja
+                                </span>
+                                <span class="mal">
+                                    പിതൃപൂജ
+                                </span>
+                            </h4>
+                            <p class="mx-5 about-content">
+                                <span class="eng">
+                                    Pithrupooja is conducted in which the ancestors are worshipped, and prayers offered
+                                    for the repose of their souls.
+                                </span>
+                                <span class="mal">
+                                    പിതൃപൂജ നടത്തുന്നതിലൂടെ പൂർവ്വികരെ ആരാധിക്കുകയും അവരുടെ ആത്മാവിന്റെ വിശ്രമത്തിനായി
+                                    പ്രാർത്ഥിക്കുകയും ചെയ്യുന്നു.
+                                </span>
+                            </p>
+                        </div>
+                        <!-- end Pithrupooja -->
+
+                        <!-- Navagrahapooja -->
+                        <div class="card-body text-center about-card">
+                            <h4 id="about-header">
+                                <span class="eng">
+                                    Navagrahapooja
+                                </span>
+                                <span class="mal">
+                                    നവഗ്രഹപൂജ
+                                </span>
+                            </h4>
+                            <p class="mx-5 about-content">
+                                <span class="eng">
+                                    Navagrahapoojas are conducted to remove all negative effects of the nine Grahas, to
+                                    improve the quality of your personal and your professional life, to gain showers of
+                                    blessings of the Navagrahas or the nine planets, to keep away bad luck and
+                                    misfortune,
+                                    and to attain salvation or Moksha.
+
+                                </span>
+                                <span class="mal">
+                                    ഒൻപത് ഗ്രഹങ്ങളുടെ എല്ലാ ദോഷങ്ങൾ നീക്കംചെയ്യാനും നിങ്ങളുടെ വ്യക്തിഗത, ഔദ്യോഗിക
+                                    ജീവിതത്തിന്റെ ഗുണനിലവാരം
+                                    മെച്ചപ്പെടുത്താനും നവഗ്രഹങ്ങളുടെ അനുഗ്രഹം നേടാനും, ദു:ഖവും നിർഭാഗ്യവും അകറ്റാനും,
+                                    രക്ഷ അല്ലെങ്കിൽ മോക്ഷം നേടാനും
+                                    നവഗ്രഹപൂജകൾ നടത്തുന്നു.
+                                </span>
+                            </p>
+                        </div>
+                        <!-- end Navagrahapooja -->
+
+                        <!-- Sarppa pooja (Prathishta dinam) -->
+                        <div class="card-body text-center about-card">
+                            <h4 id="about-header">
+                                <span class="eng">
+                                    Sarppa pooja (Prathishta dinam)
+                                </span>
+                                <span class="mal">
+                                    സർപ്പ പൂജ (പ്രതിഷ്ഠാ ദിനം)
+                                </span>
+                            </h4>
+                            <p class="mx-5 about-content">
+                                <span class="eng">
+                                    Sarppa pooja is done for overall blessings for the family and to have a prosperous
+                                    lineage or forthcoming generations.
+                                </span>
+                                <span class="mal">
+                                    കുടുംബത്തിന്റെ മൊത്തത്തിലുള്ള അനുഗ്രഹത്തിനും സമ്പന്നമായ ഒരു വംശാവലി അല്ലെങ്കിൽ
+                                    വരാനിരിക്കുന്ന തലമുറകൾക്കുമായിട്ടാണ് സർപ്പ പൂജ നടത്തുന്നത്.
+                                </span>
+                            </p>
+                        </div>
+                        <!-- end Sarppa pooja (Prathishta dinam) -->
+
+                        <!-- Dhara  -->
+                        <div class="card-body text-center about-card">
+                            <h4 id="about-header">
+                                <span class="eng">
+                                    Dhara
+                                </span>
+                                <span class="mal">
+                                    ധാര
+                                </span>
+                            </h4>
+                            <p class="mx-5 about-content">
+                                <span class="eng">
+                                    Lord Siva is always propitiated for attaining longer life span as well as a healthy
+                                    life. Dhara is performed with ksheera or milk, jala or water.
+                                </span>
+                                <span class="mal">
+                                    ദീർഘായുസ്സും ആരോഗ്യകരമായ ജീവിതവും കൈവരിക്കുന്നതിന് ശിവൻ എപ്പോഴും അനുവാദം നൽകുന്നു.
+                                    ക്ഷീരം , ജലം എന്നിവ ഉപയോഗിച്ചാണ് ധാര നടത്തുന്നത്.
+
+                                </span>
+                            </p>
+                        </div>
+                        <!-- end Dhara  -->
+
+                        <!-- Nivedyangal  -->
+                        <div class="card-body text-center about-card">
+                            <h4 id="about-header">
+                                <span class="eng">
+                                    Nivedyangal
+                                </span>
+                                <span class="mal">
+                                    നിവേദ്യങ്ങൾ
+                                </span>
+                            </h4>
+                            <p class="mx-5 about-content">
+                                <span class="eng">
+                                    The food offered directly to the deity is considered as 'Maha Prasada' (Great
+                                    Offering) and it is considered extremely auspicious to be able to partake a morsel
+                                    of that.
+
+                                </span>
+                                <span class="mal">
+                                    ദേവന് നേരിട്ട് നൽകുന്ന ഭക്ഷണം 'മഹാ പ്രസാദം' (മഹത്തായ വഴിപാട്) ആയി
+                                    കണക്കാക്കപ്പെടുന്നു, മാത്രമല്ല അതിൽ ഒരു വലിയ പങ്കു വഹിക്കാൻ കഴിയുന്നത് അങ്ങേയറ്റം
+                                    ശുഭമായി കണക്കാക്കപ്പെടുന്നു
+                                </span>
+                            </p>
+                        </div>
+                        <!-- end Nivedyangal  -->
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- end main offerings -->
+    <!-- end Poojas & Offerings  -->
+
 
     <footer id="footer" class="footer bg-dark mt-5"></footer>
 

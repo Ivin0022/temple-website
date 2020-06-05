@@ -1,7 +1,3 @@
-let url = new URL(window.location.href)
-let lang = url.searchParams.get('lang') || 'en'
-
-
 window.addEventListener("load", function (event) {
 
     $('a').each(function (index, value) {
@@ -11,20 +7,7 @@ window.addEventListener("load", function (event) {
         }
     })
 
-    if (lang === 'ml') {
-        $('.eng').each(function (index, value) {
-            $(this).css('display', 'none')
-        });
-        $('.mal').each(function (index, value) {
-            $(this).css('display', 'inherit')
-        });
-    } else {
-        $('.mal').each(function (index, value) {
-            $(this).css('display', 'none')
-
-        });
-    }
-
+    // lang is defined in the head of the index.html
     $('.btn-trans').click(function () {
         if (lang === 'en') {
             url.searchParams.set('lang', 'ml')

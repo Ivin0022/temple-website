@@ -27,11 +27,6 @@ body {
 }
 
 /* translation */
-.mal {
-    display: none;
-    font-family: "'Manjari', sans-serif";
-}
-
 .btn-trans {
     z-index: 1000;
     padding: 5px 10px;

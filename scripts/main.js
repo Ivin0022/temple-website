@@ -1,6 +1,6 @@
 window.addEventListener("load", function (event) {
 
-    $('a').each(function (index, value) {
+    $('a').not('.payment').each(function (index, value) {
         let href = $(this).attr('href');
         if (!href.includes('#')) {
             $(this).attr('href', href + "?lang=" + lang)
